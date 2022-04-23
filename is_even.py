@@ -32,4 +32,5 @@ def is_even(num: int) -> bool:
 
 
 if __name__ == "__main__":
-    print(is_even(1))
+    n = int(input("Enter your number: "))
+    print(f"{n} is even" if is_even(n) else f"{n} is odd or unknown")
